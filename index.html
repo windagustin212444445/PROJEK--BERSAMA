@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepag || Book</title>
+	<link rel="stylesheet" type="text/css" href="./asset/css/bootstrap.min.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet"  href="./asset/css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Book<span>Store</span></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+  <!-- INPUT BUTTON NAVBAR -->
+     <div class="input-group mx-auto  mt-5 mt-lg-0">
+        <input type="text" class="form-control" placeholder="Cari Apa?" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class='bx bx-search-alt-2'></i></button>
+     </div>
+ <!-- SELESAI BUTTON NAVBAR -->
+
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item ">
+        <a class="nav-link active" href="#"><i class='bx bx-heart'></i></box-icon></a></li>
+      <li class="nav-item me-5">
+        <a class="nav-link" href="#"><i class='bx bx-cart'></i>
+        <span class="badge rounded-pill bg-warning position-absolute">2</span></a></li>
+         
+  <!-- MOBILE MENU -->
+    <div class="dropdown d-lg-none mt-3">
+     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+     Menu
+     </button>
+        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#">BestSeller</a></li>
+          <li><a class="dropdown-item" href="#">Category</a></li>
+          <li><a class="dropdown-item" href="#">Comunity</a></li>
+          <li><a class="dropdown-item" href="#">Blog</a></li>
+       </ul>
+   </div>
+  <!-- SELESAI MOBILE MENU -->
+
+    <li class="nav-item">
+      <a class="nav-link btn-second mt-5 mt-lg-0 mx-3" href="#">Login</a></li>
+    <li class="nav-item">
+      <a class="nav-link btn-first text-center mt-3 mt-lg-0" href="#">Register</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- MENU WRAPPER -->
+<div class="container menu-wrapper fixed-top d-none d-lg-block">
+  <div class="menu d-flex justify-content-center align-items-center">  
+   <a class="nav-link" href="#">Home</a>
+   <a class="nav-link" href="#">BestSeller</a>
+   <a class="nav-link" href="#">Category</a>
+   <a class="nav-link" href="#">Comunity</a>
+   <a class="nav-link" href="#">Blog</a>
+  </div>
+</div>
+<!-- SELESAI MENU WRAPPER -->
+
+<!-- CAROSEL -->
+<div class="header">
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+       <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+       </div>
+       <div class="carousel-inner">
+         <div class="carousel-item active" data-bs-interval="1000">
+            <img src="./asset/img/baner.jpeg" class="d-block w-100" alt="...">
+        </div>
+         <div class="carousel-item" data-bs-interval="1000">
+            <img src="./asset/img/baner.jpeg" class="d-block w-100" alt="...">
+        </div>
+         <div class="carousel-item" data-bs-interval="1000">
+            <img src="./asset/img/baner.jpeg" class="d-block w-100" alt="...">
+         </div>
+       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- POPULER -->
+<section class="populer">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h1>Populer Now</h1>
+        </div>
+      <div class="col-6 text-end">
+        <a href="#" class="btn-first text-decoration-none"><i class='bx bx-sort'></i>View All</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card card-body">
+          <img src="./asset/img/book1.jpeg" alt="book1">
+          <h3 class="title mt-3">Marvel Alio</h3>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+            <i class='bx bx-star'></i>
+          </div>
+          <p class="author">
+            Alio Marvel
+          </p>
+          <div>
+            <a class="badge bg-primary text-light text-decoration-none">Sejarah</a>
+          </div>
+          <div class="detail d-flex justify-content-between align-items-center mt-4">
+            <p class="price m-0">Rp.100.000,-</p>
+            <a href="#" class="btn-cart"><i class='bx bx-cart'></i></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-lg-3 col-6 mt-4">
+        <div class="card card-body">
+          <img src="./asset/img/book1.jpeg" alt="book1">
+          <h3 class="title mt-3">Marvel Alio</h3>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+            <i class='bx bx-star'></i>
+          </div>
+          <p class="author">
+            Alio Marvel
+          </p>
+          <div>
+            <a class="badge bg-primary text-light text-decoration-none">Sejarah</a>
+          </div>
+          <div class="detail d-flex justify-content-between align-items-center mt-4">
+            <p class="price m-0">Rp.100.000,-</p>
+            <a href="#" class="btn-cart"><i class='bx bx-cart'></i></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-lg-3 col-6 mt-4">
+        <div class="card card-body">
+          <img src="./asset/img/book1.jpeg" alt="book1">
+          <h3 class="title mt-3">Marvel Alio</h3>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+            <i class='bx bx-star'></i>
+          </div>
+          <p class="author">
+            Alio Marvel
+          </p>
+          <div>
+            <a class="badge bg-primary text-light text-decoration-none">Sejarah</a>
+          </div>
+          <div class="detail d-flex justify-content-between align-items-center mt-4">
+            <p class="price m-0">Rp.100.000,-</p>
+            <a href="#" class="btn-cart"><i class='bx bx-cart'></i></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-lg-3 col-6 mt-4">
+        <div class="card card-body">
+          <img src="./asset/img/book1.jpeg" alt="book1">
+          <h3 class="title mt-3">Marvel Alio</h3>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+            <i class='bx bx-star'></i>
+          </div>
+          <p class="author">
+            Alio Marvel
+          </p>
+          <div>
+            <a class="badge bg-primary text-light text-decoration-none">Sejarah</a>
+          </div>
+          <div class="detail d-flex justify-content-between align-items-center mt-4">
+            <p class="price m-0">Rp.100.000,-</p>
+            <a href="#" class="btn-cart"><i class='bx bx-cart'></i></a>
+          </div>
+        </div>
+      </div>
+    </section> 
+      
+<!-- LATEST -->
+<section class="populer">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h1>Latest Book</h1>
+        </div>
+      <div class="col-6 text-end">
+        <a href="#" class="btn-first text-decoration-none"><i class='bx bx-sort'></i>View All</a>
+      </div>
+    </div>
+  
+
+  <div class="row">
+      <div class="col-lg-3 col-6 mt-4">
+        <div class="card card-body">
+          <img src="./asset/img/book2.jpeg" alt="book1">
+          <h3 class="title mt-3">Marvel Alio</h3>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+            <i class='bx bx-star'></i>
+          </div>
+          <p class="author">
+            Alio Marvel
+          </p>
+          <div>
+            <a class="badge bg-primary text-light text-decoration-none">Sejarah</a>
+          </div>
+          <div class="detail d-flex justify-content-between align-items-center mt-4">
+            <p class="price m-0">Rp.100.000,-</p>
+            <a href="#" class="btn-cart"><i class='bx bx-cart'></i></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-lg-3 col-6 mt-4">
+        <div class="card card-body">
+          <img src="./asset/img/book2.jpeg" alt="book1">
+          <h3 class="title mt-3">Marvel Alio</h3>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+            <i class='bx bx-star'></i>
+          </div>
+          <p class="author">
+            Alio Marvel
+          </p>
+          <div>
+            <a class="badge bg-primary text-light text-decoration-none">Sejarah</a>
+          </div>
+          <div class="detail d-flex justify-content-between align-items-center mt-4">
+            <p class="price m-0">Rp.100.000,-</p>
+            <a href="#" class="btn-cart"><i class='bx bx-cart'></i></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-lg-3 col-6 mt-4">
+        <div class="card card-body">
+          <img src="./asset/img/book2.jpeg" alt="book1">
+          <h3 class="title mt-3">Marvel Alio</h3>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+            <i class='bx bx-star'></i>
+          </div>
+          <p class="author">
+            Alio Marvel
+          </p>
+          <div>
+            <a class="badge bg-primary text-light text-decoration-none">Sejarah</a>
+          </div>
+          <div class="detail d-flex justify-content-between align-items-center mt-4">
+            <p class="price m-0">Rp.100.000,-</p>
+            <a href="#" class="btn-cart"><i class='bx bx-cart'></i></a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-lg-3 col-6 mt-4">
+        <div class="card card-body">
+          <img src="./asset/img/book2.jpeg" alt="book1">
+          <h3 class="title mt-3">Marvel Alio</h3>
+          <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+            <i class='bx bx-star'></i>
+          </div>
+          <p class="author">
+            Alio Marvel
+          </p>
+          <div>
+            <a class="badge bg-primary text-light text-decoration-none">Sejarah</a>
+          </div>
+          <div class="detail d-flex justify-content-between align-items-center mt-4">
+            <p class="price m-0">Rp.100.000,-</p>
+            <a href="#" class="btn-cart"><i class='bx bx-cart'></i></a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+  </section>
+  <section class="latets">
+
+
+<!-- SUSCRIBE -->
+<section class="suscribe">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-7 col-10 col-sub text-center">
+        <h1>Subscribe My Website</h1>
+        <form action="#" class="mt-5">
+          <div class="input-group w-100">
+          <input type="email" class="form-control" placeholder="Masukan Email Anda">
+          <button class="btn btn-warning">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimoni">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mt-4 mt-sm-0 text-center">
+      <div class="card px-4 py-4">
+        <img src="./asset/img/bayi.jpeg" width="60" class="rounded-circle img-fluid" alt="">
+          <i class='bx bxs-quote-alt-right'></i>
+          <p class="name fw-bold">Cill</p>
+          <p class="body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. 
+          </p>
+      </div>
+    </div>
+
+     <div class="col-lg-4  col-md-6 mt-4 mt-sm-0 text-center">
+      <div class="card px-4 py-4">
+        <img src="./asset/img/bayi.jpeg" width="60" class="rounded-circle img-fluid" alt="">
+          <i class='bx bxs-quote-alt-right'></i>
+          <p class="name fw-bold">Cill</p>
+          <p class="body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. 
+          </p>
+      </div>
+    </div>
+
+     <div class="col-lg-4  col-md-6 mt-4 mt-lg-0 text-center">
+      <div class="card px-4 py-4">
+        <img src="./asset/img/bayi.jpeg" width="60" class="rounded-circle img-fluid" alt="">
+          <i class='bx bxs-quote-alt-right'></i>
+          <p class="name fw-bold">Cill</p>
+          <p class="body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. 
+          </p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container pt-5">
+    <div class="row row-content">
+      <div class="col-md-6">
+        <h1 class="logo-brand fw-bold">
+          Book<span>Store</span>
+        </h1>
+        <p>Penawaran Terbaik Website Kami.</p>
+      </div>
+      <div class="col-md-3 mt-4 mt-sm-0">
+        <h3>Navigation</h3>
+        <ul class="p-0">
+          <li><a href="#" class="text-dark text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">BestSeller</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Category</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Comunity</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Blog</a></li>
+        </ul>
+      </div>
+        <div class="col-md-3  mt-4 mt-sm-0">
+          <h3>Company</h3>
+            <a href="#" class="text-decoration-none">windadwi@powercode.id</a>
+            <p>Jln. Sukarame Baru Bandar Lampung</p>
+        </div>
+
+        <div class="row row-copy mt-4 mt-sm-0">
+          <div class="col-md-6">
+            <p>
+              20223 ReviuwKeren. All CopyRight Indonesia.
+            </p>
+          </div>
+              <div class="col-md-6 text-sm-end">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+              </div>
+       
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPT -->
+	<script src ="./asset/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
